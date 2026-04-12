@@ -14,18 +14,18 @@ const Footer = () => {
                     {/* Quick Social Links */}
                     <div className="flex gap-6">
                         <a 
+                            href="https://www.facebook.com/moazzem.rafi/" 
+                            className="text-gray-400 hover:text-[#0ea5e9] transition-colors duration-300 text-lg"
+                        >
+                            <i className="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a 
                             href="https://github.com/Moazzem-Rafi" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="text-gray-400 hover:text-[#0ea5e9] transition-colors duration-300 text-lg"
                         >
                             <i className="fa-brands fa-github"></i>
-                        </a>
-                        <a 
-                            href="https://www.facebook.com/moazzem.rafi/" 
-                            className="text-gray-400 hover:text-[#0ea5e9] transition-colors duration-300 text-lg"
-                        >
-                            <i className="fa-brands fa-facebook-f"></i>
                         </a>
                     </div>
                 </Flex>
