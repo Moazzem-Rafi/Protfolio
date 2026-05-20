@@ -2,7 +2,7 @@ import React from 'react';
 import Container from '../Container';
 import Flex from '../Flex';
 import Images from '../Images';
-import moazzem from '../../assets/moazzem.png'
+import moazzem from '/src/assets/Myself.png'
 
 const Banner = () => {
     return (
